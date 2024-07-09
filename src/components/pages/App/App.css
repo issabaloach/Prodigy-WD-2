@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', 'Roboto Mono','PoppinsRegular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body, #app, #app>div {
+    height: 100%;
+    background: -webkit-linear-gradient(360deg,#202020 10%,#4a4a4a 360%); 
+    background: linear-gradient(360deg,#202020 10%,#4a4a4a 360%);
+    color-scheme: dark;
+}
+
+#root {
+    height: 100%;
+}
+
+@media (max-width: 920px){
+    .DigitalClockFace{
+        font-size: 150px;
+        color: #fff;
+    }
+}
